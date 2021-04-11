@@ -1,0 +1,45 @@
+.showData {
+  /* background-color: rgba(75, 43, 43, 0.904); */
+  /* margin-top: -5px; */
+  /* margin-left: 5px; */
+  padding: 3px;
+  border-bottom:0.7px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border-radius: 5px; */
+}
+
+.innerData {
+  margin-left: 5px;
+}
+
+.title {
+  /* background-color: ; */
+  margin-bottom: -10px;
+}
+
+.number {
+  /* background-color: red; */
+  /* margin-top: -5px; */
+  width: 5.2%;
+}
+.row-1 {
+  /* background-color: rgba(53, 75, 141, 0.87); */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.row-2 {
+  display: flex;
+  font-size: 13px;
+}
+.user {
+  margin-left: 4px;
+}
+
+.checkbox {
+  background: red;
+  display: inline-block;
+  margin-right: 7px;
+}

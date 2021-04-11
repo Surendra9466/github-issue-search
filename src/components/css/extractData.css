@@ -1,0 +1,10 @@
+.extract-data{
+    width: 70%;
+    /* background-color: #555; */
+    border: 0.7px solid grey;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
