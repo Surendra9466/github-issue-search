@@ -8,11 +8,11 @@ import './css/extractData.css'
 // console.log(data[1].labels[0].color);
 
 function ExtractData({ apiData }) {
-  console.log(apiData);
   return (
     <div className="extract-data">
-      {apiData.map((data) => {
-        return <ShowData title={data.title} number={data.number} user={data.user.login} />;
+      {apiData.map((data,index) => {
+      console.log(data.html_url);
+        return <ShowData title={data.title} number={data.number} user={data.user.login} url={data.html_url} key={index}   />;
       })}
     </div>
   );
